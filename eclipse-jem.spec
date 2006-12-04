@@ -1,10 +1,11 @@
+%define		_buildid	200609261748
 Summary:	Java EMF Model
 Name:		eclipse-jem
 Version:	1.2.1
 Release:	0.1
 License:	CPL
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/tools/ve/downloads/drops/R-1.2.1-200609261748/JEM-SDK-%{version}.zip
+Source0:	http://download.eclipse.org/tools/ve/downloads/drops/R-%{version}-%{_buildid}/JEM-SDK-%{version}.zip
 # Source0-md5:	2ee5413d360c62e74bef4826024a80ad
 #URL:		
 BuildRequires:	unzip
