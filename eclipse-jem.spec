@@ -2,8 +2,8 @@
 Summary:	Java EMF Model
 Name:		eclipse-jem
 Version:	1.2.1
-Release:	0.1
-License:	CPL
+Release:	0.2
+License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/tools/ve/downloads/drops/R-%{version}-%{_buildid}/JEM-SDK-%{version}.zip
 # Source0-md5:	2ee5413d360c62e74bef4826024a80ad
@@ -13,7 +13,7 @@ Requires:	eclipse >= 3.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_datadir}/eclipse
+%define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 Java EMF Model, including BeanInfo, Java Model, Proxy support
