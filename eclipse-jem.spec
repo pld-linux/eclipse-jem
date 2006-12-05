@@ -1,5 +1,6 @@
 %define		_buildid	200609261748
 Summary:	Java EMF Model
+Summary(pl):	Java EMF Model - model EMF dla Javy
 Name:		eclipse-jem
 Version:	1.2.1
 Release:	0.2
@@ -10,7 +11,6 @@ Source0:	http://download.eclipse.org/tools/ve/downloads/drops/R-%{version}-%{_bu
 #URL:		
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_eclipsedir	%{_libdir}/eclipse
@@ -18,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Java EMF Model, including BeanInfo, Java Model, Proxy support
 (with remote vm and IDE vm support).
+
+%description -l pl
+Model EMF dla Javy wraz z BeanInfo, Java Model i obslug± Proxy (wraz z
+obslug± zdalnego vm i IDE vm).
 
 %prep
 %setup -q -c
