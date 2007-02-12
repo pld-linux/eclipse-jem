@@ -1,6 +1,6 @@
 %define		_buildid	200609261748
 Summary:	Java EMF Model
-Summary(pl):	Java EMF Model - model EMF dla Javy
+Summary(pl.UTF-8):   Java EMF Model - model EMF dla Javy
 Name:		eclipse-jem
 Version:	1.2.1
 Release:	0.2
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Java EMF Model, including BeanInfo, Java Model, Proxy support
 (with remote vm and IDE vm support).
 
-%description -l pl
-Model EMF dla Javy wraz z BeanInfo, Java Model i obslug± Proxy (wraz z
-obslug± zdalnego vm i IDE vm).
+%description -l pl.UTF-8
+Model EMF dla Javy wraz z BeanInfo, Java Model i obslugÄ… Proxy (wraz z
+obslugÄ… zdalnego vm i IDE vm).
 
 %prep
 %setup -q -c
