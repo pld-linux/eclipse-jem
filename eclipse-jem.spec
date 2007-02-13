@@ -1,6 +1,6 @@
 %define		_buildid	200609261748
 Summary:	Java EMF Model
-Summary(pl.UTF-8):   Java EMF Model - model EMF dla Javy
+Summary(pl.UTF-8):	Java EMF Model - model EMF dla Javy
 Name:		eclipse-jem
 Version:	1.2.1
 Release:	0.2
