@@ -3,7 +3,7 @@ Summary:	Java EMF Model
 Summary(pl.UTF-8):	Java EMF Model - model EMF dla Javy
 Name:		eclipse-jem
 Version:	1.2.1
-Release:	0.2
+Release:	1
 License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/tools/ve/downloads/drops/R-%{version}-%{_buildid}/JEM-SDK-%{version}.zip
